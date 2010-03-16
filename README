@@ -1,45 +1,20 @@
-Religion-Bible-Regex-Versification version 0.0.1
+Religion-Bible-Regex-Versification 
 
-[ REPLACE THIS...
+NAME
 
-  The README is used to introduce the module and provide instructions on
-  how to install the module, any machine dependencies it may have (for
-  example C compilers and installed libraries) and any other information
-  that should be understood before the module is installed.
+Religion::Bible::Regex::Versification - Translates Bible references between different versifications
 
-  A README file is required for CPAN modules since CPAN extracts the
-  README file from a module distribution so that people browsing the
-  archive can use it get an idea of the modules uses. It is usually a
-  good idea to provide version information here so that people can
-  decide whether fixes for the module are worth downloading.
-]
+SYNOPSIS
 
+    use Religion::Bible::Regex::Versification;
 
-INSTALLATION
+INTERFACE
+new =head2 normalize_map =head2 parse_versification_map
+decalage =head2 get_configuration =head2 get_regexes
 
-To install this module, run the following commands:
+Daniel Holmlund <holmlund.dev@gmail.com>
+LICENCE AND COPYRIGHT
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+Copyright (c) 2009, Daniel Holmlund <holmlund.dev@gmail.com>. All rights reserved.
 
-Alternatively, to install with Module::Build, you can use the following commands:
-
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
-
-
-DEPENDENCIES
-
-None.
-
-
-COPYRIGHT AND LICENCE
-
-Copyright (C) 2009, Daniel Holmlund
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See perlartistic.
